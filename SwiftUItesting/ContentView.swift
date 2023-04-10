@@ -15,6 +15,7 @@ struct ContentView: View {
                 .font(.system(size: 72))
                 .symbolRenderingMode(.multicolor)
             Text(name)
+            Text("😃")
             Text(permname)
             
         }
