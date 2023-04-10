@@ -6,14 +6,17 @@
 //
 
 import SwiftUI
-
+var name = "Ty"
+let permname = "Tyler"
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Image(systemName: "pc")
+                .font(.system(size: 72))
+                .symbolRenderingMode(.multicolor)
+            Text(name)
+            Text(permname)
+            
         }
         .padding()
     }
